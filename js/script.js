@@ -51,7 +51,7 @@ function createNewPage() {
 
     div.innerHTML = `
         <p class="str_fam"></p>
-        <img src="https://github.com/3Dima10/Hecate/blob/main/fon.jpg?raw=true" alt="fon">
+        <img src="https://github.com/Dollar-admin/dollar-admin.github.io/blob/main/image/fon.jpg?raw=true" alt="fon">
     `;
 
     pageCount++;
@@ -62,3 +62,4 @@ document.querySelectorAll('.fon_box.mirrored').forEach(el => {
     console.log("Элемент с mirrored:", el);
     console.log("Стили:", window.getComputedStyle(el).transform);
 });
+
