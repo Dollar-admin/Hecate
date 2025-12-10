@@ -63,3 +63,4 @@ document.querySelectorAll('.fon_box.mirrored').forEach(el => {
     console.log("Стили:", window.getComputedStyle(el).transform);
 });
 
+
